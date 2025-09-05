@@ -24,5 +24,5 @@ conversor.addEventListener('click', () => {
 
     const conversao = valorInserido * taxa
 
-    resultado.textContent = `${valorDe.toUpperCase()} ${valorInserido} = ${valorPara.toUpperCase()} ${conversao}`
+    resultado.textContent = `${valorDe.toUpperCase()} ${valorInserido} = ${valorPara.toUpperCase()} ${conversao.toFixed(2)}`
 })
